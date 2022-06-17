@@ -1,0 +1,15 @@
+link to CIC-IDS2017 data
+
+https://www.unb.ca/cic/datasets/ids-2017.html
+
+
+
+
+
+1. Use combine.ipynb to combine the individual .csv files together. 
+
+2. Node characterisation:
+	2.1. run traffic_analysis_ip+port_host_out.ipynb to output node_characterisation.csv for atk/benign class and other .pickles files necessary to feed into the hyperGCN model.
+	2.2 run traffic_analysis_ip+port_multclass_2.ipynb to output node_characterisation.csv for ddos/portscan classes and other .pickles files to feed into the HyperGCN model.
+	
+

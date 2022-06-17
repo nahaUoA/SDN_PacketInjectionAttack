@@ -1,0 +1,6 @@
+
+
+1. The generated data is inside mal_traffics folder, with the file combined.csv is the combination of all classes data in one single .csv file
+
+
+2. run traffic_analysis_multiclass_sdn.ipynb to obtain the nodes_characterisation.csv data (feed this in to ML models to obtain the training result). Furthermore, this file output the necessary .pickle files for training with HyperGCN model.
